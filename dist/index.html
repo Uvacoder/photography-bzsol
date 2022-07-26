@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="photoswipe/dist/photoswipe.css">
+</head>
+<body>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#a2d9ff" fill-opacity="0.9" d="M0,192L60,202.7C120,213,240,235,360,213.3C480,192,600,128,720,138.7C840,149,960,235,1080,224C1200,213,1320,107,1380,53.3L1440,0L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
+    <nav class="relative container mx-auto p-1">
+      <div class="flex items-center justify-between">
+      <div class="pt-2">
+          <!-- Justify content to center -->
+          <img src="/img/logo.svg" alt="Lego"/>
+      </div>
+      <div class="hidden md:flex space-x-6">
+        <a href="#" class="Roboto text-3xl font-bold underline decoration-sky-500 underline-offset-8 hover:decoration-pink-400">Galéria</a>
+        <a href="#" class="Roboto text-3xl font-bold underline decoration-sky-500 underline-offset-8 hover:decoration-pink-400">Rólam</a>
+        <a href="#" class="Roboto text-3xl font-bold underline decoration-sky-500 underline-offset-8 hover:decoration-pink-400">Elérhetőségek</a>
+      </div>
+      </div>
+    </nav>
+    <br>
+    <section id="hero">
+      <div class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0">
+        <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+          <h1 class="max-w-md text-4xl md:text-left">Hero Section</h1>
+        </div>
+      </div>
+    </section>
+    <script type="module">
+      import PhotoSwipeLightbox from 'photoswipe/dist/photoswipe-lightbox.esm.js';
+      const lightbox = new PhotoSwipeLightbox({
+        gallery: '#my-gallery',
+        children: 'a',
+        pswpModule: () => import('photoswipe/dist/photoswipe.esm.js')
+      });
+      lightbox.init();
+      </script>
+</body>
+</html>
