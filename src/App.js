@@ -7,11 +7,13 @@ import Footer from "./Footer";
 function App() {
   return (
     <div className="App">
+      <div className="flex flex-col">
       <Navbar></Navbar>
       <Hero></Hero>
       <Features></Features>
       <Reviews></Reviews>
       <Footer></Footer>
+      </div>
     </div>
   );
 }
