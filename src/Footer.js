@@ -2,7 +2,7 @@ import Logo from "./img/logo_white.svg";
 import Facebook from "./img/social_media/Facebook.svg";
 import Instagram from "./img/social_media/Instagram.svg";
 import WhatsApp from "./img/social_media/WhatsApp.svg";
-import Email from "./img/social_media/Email.svg";
+import Twitter from "./img/social_media/Twitter.svg"
 
 const Footer = () => {
     return (
@@ -15,7 +15,7 @@ const Footer = () => {
             </div>
 
             <div>
-              <img src={Logo} class="h-8" alt="" />
+              <img src={Logo} classN="h-8" height={300} width={300} alt="" />
             </div>
 
             <div className="flex justify-center space-x-4">
@@ -33,23 +33,23 @@ const Footer = () => {
               </a>
 
               <a href="mailto:faszfej@gmail.com">
-                <img src={Email} alt="" className="h-8" />
+                <img src={Twitter} alt="" className="h-8" />
               </a>
 
             </div>
           </div>
 
-          <div class="flex justify-around space-x-32">
-            <div class="flex flex-col space-y-3 text-white">
-              <a href="#" className="hover:text-orange-400">Épület fotók</a>
-              <a href="#" className="hover:text-orange-400">Portré fotók</a>
-              <a href="#" className="hover:text-orange-400">Enteriőr fotók</a>
-              <a href="#" className="hover:text-orange-400">Reklám fotók</a>
+          <div className="flex justify-around space-x-32">
+            <div className="flex flex-col space-y-3 text-white">
+              <a href="/epulet" className="hover:text-orange-400">Épület fotók</a>
+              <a href="/portre" className="hover:text-orange-400">Portré fotók</a>
+              <a href="/enterior" className="hover:text-orange-400">Enteriőr fotók</a>
+              <a href="/reklam" className="hover:text-orange-400">Reklám fotók</a>
             </div>
             <div class="flex flex-col space-y-3 text-white">
-                <a href="#" className="hover:text-orange-400">Rólam</a>
-                <a href="#" className="hover:text-orange-400">Kapcsolat</a>
-                <a href="#" className="hover:text-orange-400">Kenyér</a>
+                <a href="/rolam" className="hover:text-orange-400">Rólam</a>
+                <a href="/kapcsolat" className="hover:text-orange-400">Kapcsolat</a>
+                <a href="/kenyer" className="hover:text-orange-400">Kenyér</a>
             </div>
           </div>
           <div className="flex flex-col justify-between">
