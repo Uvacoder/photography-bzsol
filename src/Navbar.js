@@ -36,10 +36,10 @@ const Navbar = () => {
             </div>
             <div className="md:hidden">
                 <div id="menu" className={isActive ? "absolute flex flex-col items-center  self-end py-8 mt-30 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md" : "absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"}>
-                <a href="#" className="text-center">Esküvő</a>
-                <a href="#" className="text-center">Portré</a>
-                <a href="#" className="text-center">Rólam</a>
-                <a href="#" className="text-center">Kapcsolat</a>
+                <a href="/wedding" className="text-center">Esküvő</a>
+                <a href="/portrait" className="text-center">Portré</a>
+                <a href="/about" className="text-center">Rólam</a>
+                <a href="/contact" className="text-center">Kapcsolat</a>
                 </div>
             </div>
         </nav>

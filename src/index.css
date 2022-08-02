@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-#hero{
+#hero {
     background-image: url("./img/wave.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -17,11 +17,11 @@
     position: absolute;
     top: 40%;
     right: 5%;
-  }
-  
-  .hamburger-top,
-  .hamburger-middle,
-  .hamburger-bottom {
+}
+
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
     position: absolute;
     top: 0;
     left: 0;
@@ -30,29 +30,35 @@
     background: #000;
     transform: rotate(0);
     transition: all 0.5s;
-  }
-  
-  .hamburger-middle {
+}
+
+.hamburger-middle {
     transform: translateY(7px);
-  }
-  
-  .hamburger-bottom {
+}
+
+.hamburger-bottom {
     transform: translateY(14px);
-  }
-  
-  .open {
+}
+
+.open {
     transform: rotate(90deg);
     transform: translateY(0px);
-  }
-  
-  .open .hamburger-top {
+}
+
+.open .hamburger-top {
     transform: rotate(45deg) translateY(6px) translate(6px);
-  }
-  
-  .open .hamburger-middle {
+}
+
+.open .hamburger-middle {
     display: none;
-  }
-  
-  .open .hamburger-bottom {
+}
+
+.open .hamburger-bottom {
     transform: rotate(-45deg) translateY(6px) translate(-6px);
-  }
+}
+
+#picture{
+    background-image: url("./img/background_image.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

@@ -1,6 +1,5 @@
 import image from "./img/background_image.jpg"
-import svg from "./img/social_media/Email.svg"
-
+// 
 const Hero = () => {
     return (
         <section id="hero">
