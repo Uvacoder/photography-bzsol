@@ -4,9 +4,11 @@ import Features from "./Features";
 import Reviews from "./Reviews";
 import Footer from "./Footer";
 
+
 function App() {
+  
   return (
-    <div className="App">
+    <div id="main" className="App">
       <div className="flex flex-col">
       <Navbar></Navbar>
       <Hero></Hero>
