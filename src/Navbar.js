@@ -9,6 +9,12 @@ const Navbar = () => {
         setActive(!isActive);
         console.log(isActive)
     };
+    const links = [
+        ['Esküvő', '/wedding'],
+        ['Portré', '/portait'],
+        ['Magamról', '/about'],
+        ['Kapcsolat', '/contact'],
+    ]
     return (
         <nav className="relative container mx-auto p-2">
             <div className="flex items-center justify-between">
@@ -16,12 +22,7 @@ const Navbar = () => {
                     <img src={Logo} alt="Logo" width={300} height={300} />
                 </div>
                 <div className="hidden md:flex space-x-6">
-                    {[
-                        ['Esküvő', '/wedding'],
-                        ['Portré', '/portait'],
-                        ['Magamról', '/about'],
-                        ['Kapcsolat', '/contact'],
-                    ].map(([title, url]) => (
+                    {links.map(([title, url]) => (
                         <a href={url} className="rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-slate-100 hover:text-slate-900">{title}</a>
                     ))}
                 </div>
@@ -36,10 +37,9 @@ const Navbar = () => {
             </div>
             <div className="md:hidden">
                 <div id="menu" className={isActive ? "absolute flex flex-col items-center  self-end py-8 mt-30 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md" : "absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"}>
-                <a href="/wedding" className="text-center">Esküvő</a>
-                <a href="/portrait" className="text-center">Portré</a>
-                <a href="/about" className="text-center">Rólam</a>
-                <a href="/contact" className="text-center">Kapcsolat</a>
+                {links.map(([title, url]) => (
+                        <a href={url} className="text-center">{title}</a>
+                    ))}
                 </div>
             </div>
         </nav>
