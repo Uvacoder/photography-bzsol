@@ -11,7 +11,7 @@ const Navbar = () => {
     };
     const links = [
         ['Kezdőlap', '/'],
-        ['Esküvő', '/wedding'],
+        ['Galéria', '/gallery'],
         ['Magamról', '/about'],
         ['Kapcsolat', '/contact'],
     ]

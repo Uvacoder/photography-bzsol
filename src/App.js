@@ -2,7 +2,7 @@ import { BrowserRouter as Router,Routes,Route} from "react-router-dom";
 import About from "./Pages/About";
 import Home from "./Pages/Home";
 import Error from "./Pages/Error";
-import Wedding from "./Pages/Wedding";
+import Gallery from "./Pages/Photos";
 
 function App() {
   
@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/about" element={<About/>} />
-        <Route path="/wedding" element={<Wedding/>} />
+        <Route path="/gallery" element={<Gallery/>} />
         <Route path="*" element={<Error/>}  />
       </Routes>
     </Router>

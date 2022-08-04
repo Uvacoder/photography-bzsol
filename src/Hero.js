@@ -1,4 +1,5 @@
-import image from "./img/background_image.jpg"
+import Slider from "./Slider";
+
 // 
 const Hero = () => {
     return (
@@ -12,9 +13,9 @@ const Hero = () => {
                     Számunkra fontos,hogy meglévő ötletedet teljes mértékben megvalósítsuk, emellett mi azon leszünk hogy saját elképzeléseinkkel új megvilágításba helyezzük koncepciódat.
                     </p>
                 </div>
-                <div className=" md:w-1/2">
+                <div className="w-96 md:w-1/2 rounded-xl">
                     <br></br>
-                    <img src={image} alt="Foto" className="rounded-lg drop-shadow-md" />
+                    <Slider className="rounded-xl"></Slider>
                 </div>
             </div>
         </section>
