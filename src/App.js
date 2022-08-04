@@ -1,22 +1,20 @@
-import Navbar from "./Navbar";
-import Hero from "./Hero";
-import Features from "./Features";
-import Reviews from "./Reviews";
-import Footer from "./Footer";
-
+import { Gallery } from "react-photoswipe-gallery";
+import { BrowserRouter as Router,Routes,Route} from "react-router-dom";
+import About from "./Pages/About";
+import Home from "./Pages/Home";
+import Error from "./Pages/Error";
 
 function App() {
   
   return (
-    <div id="main" className="App">
-      <div className="flex flex-col">
-      <Navbar></Navbar>
-      <Hero></Hero>
-      <Features></Features>
-      <Reviews></Reviews>
-      <Footer></Footer>
-      </div>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/about" element={<About/>} />
+        <Route path="/gallery" element={<Gallery/>} />
+        <Route path="*" element={<Error/>}  />
+      </Routes>
+    </Router>
   );
 }
 
