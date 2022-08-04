@@ -15,8 +15,8 @@ function Wedding() {
         <Gallery>
           {[...Array(12)].map((x, i) =>
             <Item
-            original= {`https://picsum.photos/id/${Math.floor(Math.random() * 300) + 1}/1920/1080`}
-            thumbnail= {`https://picsum.photos/id/${Math.floor(Math.random() * 300) + 1}/1920/1080`}
+            original= {`https://picsum.photos/id/${Math.floor(Math.random() * 100) + 1}/1920/1080`}
+            thumbnail= {`https://picsum.photos/id/${Math.floor(Math.random() * 100) + 1}/1920/1080`}
             width="1920"
             height="1080"
           >
@@ -24,7 +24,7 @@ function Wedding() {
               <motion.div className="img-wrap"
                 layout
                 whileHover={{ opacity: 1 }} s>
-                <motion.img ref={ref} onClick={open} src={`https://picsum.photos/id/${Math.floor(Math.random() * 300) + 1}/1920/1080`} alt="uploaded pic" 
+                <motion.img ref={ref} onClick={open} src={`https://picsum.photos/id/${Math.floor(Math.random() * 100) + 1}/1920/1080`} alt="uploaded pic" 
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{ delay: 1 }} />

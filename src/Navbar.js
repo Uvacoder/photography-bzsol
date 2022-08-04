@@ -10,8 +10,8 @@ const Navbar = () => {
         console.log(isActive)
     };
     const links = [
+        ['Kezdőlap', '/'],
         ['Esküvő', '/wedding'],
-        ['Portré', '/portait'],
         ['Magamról', '/about'],
         ['Kapcsolat', '/contact'],
     ]
