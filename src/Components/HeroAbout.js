@@ -18,22 +18,7 @@ const HeroAbout = () => {
 
             </section>
             <div className="flex flex-col mr-5 ml-5 mt-10 mb-16  md:grid grid-cols-3 gap-10 content-center md:ml-20 md:mr-20 md:mt-20">
-                <p>Csak a kézzel fogható, gyakorlatias témák foglaltak le igazán. Így tizenöt éves koromtól kezdődően a fotózás volt az egyetlen, ami lekötött, ami igazán érdekelt. Mindent megtettem annak érdekében, hogy az álmom valóra váljon és a hobbimból karriert építsek.
-
-                    Azóta csapattá fejlődtünk, szálloda fotózásra specializálódva hatékony fotók készítésével foglalkozunk a megbízóink részére.
-
-                    Egy reklámzajjal teli világban, ahol a néző figyelmének felkeltésére, meggyőzésére csak másodperceink vannak, a hatékony fotók a szállodák számára érték. Különösen odafigyelünk, hogy ez a felépített, tökéletes pillanat ne csak esztétikus legyen, de megjelenjen rajta minden olyan üzenet, ami a szálloda marketingcéljai számára lényeges. Kattintani ugyanis könnyű, míg egy olyan beállítást megtalálni és felépíteni, ami képes egy üzenetet átadni, jóval időigényesebb. </p>
-                    <p>Kezeiben válnak a pixelek vizuális entitássá. Csapat női tagjaként igyekszik kordában tartani a fiúkat. Sikertelenül. De cserébe közben nagyon jól szórakozik.
-
-Hobbi-barista. A kávé zamata inspirálja. Ilyenkor korlátlan boldogság tölti el.
-
-Tudatalattiját meditációval és jógával szelídíti.</p>
-<p>
-A rosszul álló székek elleni harcosok legnagyobbika. Gyűrőtt ágyneműk ádáz ellensége. Rosszul lelogó függönyök rekonstruktőre. Hajnali fotózásokra nehézkes felébreszteni, de ha sikerült, akkor ébren van. Fáradhatatlanül jókedvű és szeret pizsamában lenni.
-
-A gasztró élményekért dolgozik csak velünk. Szereti a hasát.
-Mi meg őt.  
-</p>
+                
             </div>
             <Footer></Footer>
         </div>
