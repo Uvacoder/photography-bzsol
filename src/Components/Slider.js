@@ -3,10 +3,10 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper";
-import reklam from './img/slider/pickwick.jpg';
-import portre from './img/slider/portre.jpg';
-import enterior from './img/slider/enterior.jpg';
-import epulet from './img/slider/epulet.jpg';
+import reklam from '../img/slider/pickwick.jpg';
+import portre from '../img/slider/portre.jpg';
+import enterior from '../img/slider/enterior.jpg';
+import epulet from '../img/slider/epulet.jpg';
 
 
 //Esküvő odaillesztése!

@@ -1,9 +1,9 @@
 import React from 'react'
-import Navbar from "../Navbar";
-import Hero from "../Hero";
-import Features from "../Features";
-import Reviews from "../Reviews";
-import Footer from "../Footer";
+import Navbar from "../Components/Navbar";
+import Hero from "../Components/Hero";
+import Features from "../Components/Features";
+import Reviews from "../Components/Reviews";
+import Footer from "../Components/Footer";
 
 function Home() {
   return (

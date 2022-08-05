@@ -1,4 +1,4 @@
-import Logo from "./img/logo.svg";
+import Logo from "../img/logo.svg";
 import { useState } from 'react';
 
 
