@@ -7,7 +7,8 @@ const Contact = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <div className="container flex flex-col md:flex-row items-center px-6 mx-auto mt-2 space-y-0 md:space-y-0 p-12">
+        <div>
+            <div  className="container flex flex-col md:flex-row items-center px-6 mx-auto mt-2 space-y-0 md:space-y-0 p-12">
                 <div className="container mx-10 md:mx-96 my-40 p-6 max-w-md bg-white rounded-lg border border-gray-200 shadow-2xl w-4/5 md:w-1/2 ">
                 <div className="mb-3">
                 <h1 className='text-2xl font-bold text-red-500 mb-2'>E-mail</h1>
@@ -59,6 +60,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     );
 }
