@@ -24,9 +24,9 @@ const Slider = () => {
         pagination={{
           clickable: false,
         }}
-        navigation={false}
+        navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper rounded-xl"
+        className="rounded-lg shadow-2xl"
       >
         <SwiperSlide><img src={reklam} width={800} height={800} alt="Potré" ></img></SwiperSlide>
         <SwiperSlide><img src={portre} width={800} height={800} alt="Portré" ></img></SwiperSlide>

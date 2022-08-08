@@ -1,14 +1,12 @@
 const Features = () => {
     return (
-        <section id="features">
-            <div className="container flex flex-col px-4 mx-auto mt-10 space-y-12 md:space-y-0 md:flex-row">
-                <div className="flex flex-col space-y-12 md:w-1/2">
-                    <h2 className="max-w-md text-2xl font-bold text-center md:text-left">
-                        Számunkra fontos,hogy meglévő ötletedet teljes mértékben megvalósítsuk
-                    </h2>
-                    <p className="max-w-sm text-center text-slate-500 md:text-left">
-                        Azon leszek hogy saját elképzeléseinkkel új megvilágításba helyezzük koncepciódat.
-                    </p>
+        <section id="about">
+            <h2 className="text-4xl font-bold text-center md:mt-60">
+                Magamról🎓
+            </h2>
+            <div className="container flex flex-col px-4 mx-auto md:mt-40 mt-20 space-y-12 md:space-y-0 md:flex-row">
+                <div className="flex flex-col space-y-12 md:w-1/2 ">
+                    <img className="items-center  shadow-2xl" src="https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-1/286359524_2231945443630121_2665830751799325574_n.jpg?stp=dst-jpg_p200x200&_nc_cat=106&ccb=1-7&_nc_sid=7206a8&_nc_ohc=VD6DB-1rhEwAX9EjsYz&_nc_ht=scontent-vie1-1.xx&oh=00_AT_bcGIzOJ6GSGNBot0EhFlo_cflFeMrYoIfOkV_vuoT7A&oe=62F1A922" width={400} height={400} alt='me'></img>
                 </div>
 
                 <div className="flex flex-col space-y-8 md:w-1/2">

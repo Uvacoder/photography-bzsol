@@ -12,7 +12,7 @@ const HeroAbout = () => {
                         <p className="text-slate-800 font-semibold text-2xl text-center md:text-left max-w-sm">Fotográfus</p>
                     </div>
                     <div className="rounded-xl md:w-1/5 ">
-                        <img className="rounded-full shadow-2xl" src="https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-1/286359524_2231945443630121_2665830751799325574_n.jpg?stp=dst-jpg_p200x200&_nc_cat=106&ccb=1-7&_nc_sid=7206a8&_nc_ohc=VD6DB-1rhEwAX9EjsYz&_nc_ht=scontent-vie1-1.xx&oh=00_AT_bcGIzOJ6GSGNBot0EhFlo_cflFeMrYoIfOkV_vuoT7A&oe=62F1A922" height={300} width={300} alt='me'></img>
+                        
                     </div>
                 </div>
 

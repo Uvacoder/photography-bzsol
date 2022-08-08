@@ -58,6 +58,7 @@ const Contact = () => {
                             </svg>
                         </button>
                     </div>
+                    <a href="mailto:svetz@svetz.hu" className='text-2xl md:text-6xl font-bold text-center text-slate-600 mb-10'>vau@vau.hu</a>
                 </div>
             </div>
         </div>

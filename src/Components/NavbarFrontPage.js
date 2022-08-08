@@ -1,5 +1,6 @@
 import Logo from "../img/logo.svg";
 import { useState } from 'react';
+import { Link, } from 'react-scroll'
 
 
 const Navbar = () => {
@@ -9,10 +10,10 @@ const Navbar = () => {
         console.log(isActive)
     };
     const links = [
-        ['Kezdőlap', '/'],
-        ['Galéria', '/gallery'],
-        ['Magamról', '/about'],
-        ['Kapcsolat', '/contact'],
+        ['Kezdőlap', 'hero'],
+        ['Magamról', 'about'],
+        ['Szolgáltatások', 'services'],
+        ['Vélemények', 'reviews'],
     ]
     return (
         <nav className="relative container mx-auto p-2">
@@ -22,7 +23,7 @@ const Navbar = () => {
                 </div>
                 <div className="hidden md:flex space-x-6">
                     {links.map(([title, url]) => (
-                        <a href={url} className="rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-slate-100 hover:text-slate-900">{title}</a>
+                        <button className="rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-slate-100 hover:text-slate-900"><Link spy={true} smooth={true} offset={50} duration={500}  to={url} className="">{title}</Link></button>
                     ))}
                 </div>
             </div>
@@ -37,7 +38,7 @@ const Navbar = () => {
             <div className="md:hidden">
                 <div id="menu" className={isActive ? "absolute flex flex-col items-center  self-end py-8 mt-30 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md" : "absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"}>
                 {links.map(([title, url]) => (
-                        <a href={url} className="text-center">{title}</a>
+                        <Link spy={true} smooth={true} offset={50} duration={500} to={url} className="text-center">{title}</Link>
                     ))}
                 </div>
             </div>

@@ -7,6 +7,7 @@
     background-repeat: no-repeat;
     background-size: 100%;
 }
+
 #contact {
     background-image: url("./img/wave.svg");
     background-size: 150%;
@@ -63,8 +64,8 @@
 }
 
 #haikei {
-    background: rgb(63,94,251,1);
-    background: linear-gradient(90deg, rgba(63,94,251,0.5) 0%, rgba(252,70,107,1) 100%);
+    background: rgb(63, 94, 251, 1);
+    background: linear-gradient(90deg, rgba(63, 94, 251, 0.5) 0%, rgba(252, 70, 107, 1) 100%);
     background-size: 120%;
     background-repeat: repeat-x;
     background-position: top;
@@ -77,48 +78,40 @@
     padding: 35% 0;
     position: relative;
     opacity: 0.8;
-    --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
-    --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
-
-.img-wrap-reverse {
-    overflow: hidden;
-    height: 0;
-    padding: 35% 0;
-    position: relative;
-    opacity: 0;
-    --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
-    --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.img-wrap-reverse img {
-    min-width: 50%;
-    min-height: 100%;
-    max-width: 110%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    object-fit: scale-down;
-}
-
 
 
 .img-wrap img {
-    min-width: 50%;
+    min-width: 100%;
     min-height: 100%;
     max-width: 110%;
+    max-height: 100%;
     position: absolute;
     top: 0;
     left: 0;
     object-fit: scale-down;
 }
 
-.swiper-button-next,
-.swiper-button-prev ,
+
+
 .swiper-pagination,
 .swiper-pagination-bullets,
 .swiper-pagination-horizontal {
     visibility: hidden;
+}
+ 
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: white !important;
+  }
+
+
+
+.slow-hover{
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    --tw-grayscale: grayscale(100%);
+    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+
 }
