@@ -14,6 +14,7 @@ const Navbar = () => {
         ['Magamról', 'about'],
         ['Szolgáltatások', 'services'],
         ['Vélemények', 'reviews'],
+        ['Kapcsolat', 'contact'],
     ]
     return (
         <nav className="relative container mx-auto p-2">

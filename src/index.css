@@ -8,11 +8,6 @@
     background-size: 100%;
 }
 
-#contact {
-    background-image: url("./img/wave.svg");
-    background-size: 150%;
-    background-repeat: repeat-x;
-}
 
 /* Hamburger Menu */
 .hamburger {

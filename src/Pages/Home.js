@@ -5,6 +5,7 @@ import About from "../Components/About";
 import Reviews from "../Components/Reviews";
 import Footer from "../Components/Footer";
 import Options from '../Components/Options';
+import Contact from '../Components/Contact';
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
       <About></About>
       <Options></Options>
       <Reviews></Reviews>
+      <Contact></Contact>
       <Footer></Footer>
       </div>
     </div>
