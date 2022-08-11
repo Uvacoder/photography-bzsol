@@ -1,0 +1,216 @@
+{
+    "portraits": [
+        {
+            "id": 1,
+            "image": "/images/portrait/25min.jpg",
+            "width": 6000,
+            "height": 4000
+        },
+        {
+            "id": 2,
+            "image": "/images/portrait/divat1.jpg",
+            "width": 6000,
+            "height": 4000
+        },
+        {
+            "id": 3,
+            "image": "/images/portrait/hh3-min.jpg",
+            "width": 6016,
+            "height": 4016
+        },
+        {
+            "id": 4,
+            "image": "/images/portrait/m3-min.jpg",
+            "width": 6016,
+            "height": 4016
+        },
+        {
+            "id": 5,
+            "image": "/images/portrait/2min.jpg",
+            "width": 6000,
+            "height": 4000
+        },
+        {
+            "id": 6,
+            "image": "/images/portrait/jocixksz-min.jpg",
+            "width": 3799,
+            "height": 5688
+        },
+        {
+            "id": 7,
+            "image": "/images/portrait/p12-min.jpg",
+            "width": 6000,
+            "height": 4000
+        },
+        {
+            "id": 8,
+            "image": "/images/portrait/lacicsipsz-min.jpg",
+            "width": 4000,
+            "height": 5718
+        }
+        ,
+        {
+            "id": 9,
+            "image": "/images/portrait/hh4-min.jpg",
+            "width": 6016,
+            "height": 4016
+        },
+        {
+            "id": 10,
+            "image": "/images/portrait/hh5-min.jpg",
+            "width": 6016,
+            "height": 4016
+        },
+        {
+            "id": 11,
+            "image": "/images/portrait/hh14-min.jpg",
+            "width": 6016,
+            "height": 4016
+        },
+        {
+            "id": 12,
+            "image": "/images/portrait/svetz1.jpg",
+            "width": 4016,
+            "height": 6016
+        },
+        {
+            "id": 13,
+            "image": "/images/portrait/svetz2.jpg",
+            "width": 6016,
+            "height": 4016
+        },
+        {
+            "id": 14,
+            "image": "/images/portrait/svetz3.jpg",
+            "width": 3350,
+            "height": 6016
+        },
+        {
+            "id": 15,
+            "image": "/images/portrait/p1-min.jpg",
+            "width": 4016,
+            "height": 6016
+        },
+        {
+            "id": 16,
+            "image": "/images/portrait/p2-min.jpg",
+            "width": 4016,
+            "height": 6016
+        },
+        {
+            "id": 17,
+            "image": "/images/portrait/p3-min.jpg",
+            "width": 3945,
+            "height": 6015
+        }
+
+    ],
+    "architecture":[
+        {
+            "id": 1,
+            "image": "/images/architecture/a1.jpg",
+            "width": 6000,
+            "height": 4000
+        },
+        {
+            "id": 2,
+            "image": "/images/architecture/a2.jpg",
+            "width": 4016,
+            "height": 6016
+        },
+        {
+            "id": 3,
+            "image": "/images/architecture/a3.jpg",
+            "width": 6000,
+            "height": 4000
+        },
+        {
+            "id": 4,
+            "image": "/images/architecture/a4.jpeg",
+            "width": 6000,
+            "height": 4000
+        },
+        {
+            "id": 5,
+            "image": "/images/architecture/a5.jpg",
+            "width": 4183,
+            "height": 3405
+        },
+        {
+            "id": 6,
+            "image": "/images/architecture/a6.jpg",
+            "width": 2304,
+            "height": 1536
+        },
+        {
+            "id": 7,
+            "image": "/images/architecture/a7.jpg",
+            "width": 3935,
+            "height": 4016
+        },
+        {
+            "id": 8,
+            "image": "/images/architecture/a8.jpg",
+            "width": 5259,
+            "height": 4000
+        }
+    ],
+    "interior":[
+        {
+            "id": 1,
+            "image": "/images/interior/int1.jpg",
+            "width": 5879,
+            "height": 3919
+        },
+        {
+            "id": 2,
+            "image": "/images/interior/int2.jpg",
+            "width": 6000,
+            "height": 3926
+        },
+        {
+            "id": 3,
+            "image": "/images/interior/int3.jpg",
+            "width": 5264,
+            "height": 3843
+        },
+        {
+            "id": 4,
+            "image": "/images/interior/int4.jpg",
+            "width": 6000,
+            "height": 4000
+        },
+        {
+            "id": 5,
+            "image": "/images/interior/int5.jpg",
+            "width": 6000,
+            "height": 4000
+        }
+    ],
+    "advertisement":[
+        {
+            "id": 1,
+            "image": "/images/advertisement/p1.jpg",
+            "width": 5886,
+            "height": 4000
+        },
+        {
+            "id": 2,
+            "image": "/images/advertisement/p2.jpg",
+            "width": 6000,
+            "height": 4000
+        },
+        {
+            "id": 3,
+            "image": "/images/advertisement/p3.jpg",
+            "width": 6000,
+            "height": 3953
+        },
+        {
+            "id": 4,
+            "image": "/images/advertisement/p4.jpg",
+            "width": 6000,
+            "height": 4000
+        }
+    ]
+}

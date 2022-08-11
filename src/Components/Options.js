@@ -13,8 +13,8 @@ const Options = () => {
             <h4 className='text-2xl text-center text-slate-600'>A képre kattintva elérhető lesz az adott szolgáltatás galériája</h4>
             <div className="flex flex-col mt-24 md:flex-row md:space-x-6 gap-10  content-center">
             <div>
-                <a href='/gallery'>
-                <h2 className='text-center font-bold text-3xl text-slate-800'>Épület fotózás</h2> 
+                <a href='/architecture'>
+                <h2 className='text-center font-bold text-3xl text-slate-800'>Reklám fotózás</h2> 
                 <img className='relative shadow-xl hover:grayscale-[90%]' width={800} height={800} src={epulet} alt="asd"></img>
                 </a>
             
