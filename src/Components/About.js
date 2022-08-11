@@ -9,7 +9,7 @@ const About = () => {
                     <img className="rounded-full  shadow-2xl" src="https://img-comment-fun.9cache.com/media/agvm72v/a5jMR2GN_700w_0.jpg" width={400} height={400} alt='me'></img>
                 </div>
 
-                <div className="flex flex-col space-y-8 md:w-1/2">
+                <div className="flex flex-col space-y-8 md:w-1/2 text-justify">
 
                     <div
                         className="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row"

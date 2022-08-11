@@ -10,9 +10,10 @@ const Navbar = () => {
     };
     const links = [
         ['Kezdőlap', '/'],
-        ['Galéria', '/gallery'],
-        ['Magamról', '/about'],
-        ['Kapcsolat', '/contact'],
+        ['Reklám fotók', '/advertisement'],
+        ['Enteriőr fotók', '/interior'],
+        ['Portré fotók', '/portrait'],
+        ['Épület fotók', '/architecture'],
     ]
     return (
         <nav className="relative container mx-auto p-2">
