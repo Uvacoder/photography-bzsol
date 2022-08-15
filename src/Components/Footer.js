@@ -1,7 +1,7 @@
 import Facebook from "../img/social_media/Facebook.svg";
 import Instagram from "../img/social_media/Instagram.svg";
 import WhatsApp from "../img/social_media/WhatsApp.svg";
-import Twitter from "../img/social_media/Twitter.svg"
+import GitHub from "../img/social_media/GitHub.svg"
 
 const Footer = () => {
     return (
@@ -19,19 +19,19 @@ const Footer = () => {
             <div className="flex justify-center space-x-4">
 
               <a href="https://facebook.com">
-                <img src={Facebook} alt="" className="h-8" />
+                <img src={Facebook} alt="Facebook page" className="h-8" />
               </a>
 
               <a href="https://instagram.com">
-                <img src={Instagram} alt="" className="h-8" />
+                <img src={Instagram} alt="Instagram site" className="h-8" />
               </a>
 
               <a href="https://whatsapp.com">
-                <img src={WhatsApp} alt="" className="h-8" />
+                <img src={WhatsApp} alt="WhatsApp profile" className="h-8" />
               </a>
 
-              <a href="mailto:faszfej@gmail.com">
-                <img src={Twitter} alt="" className="h-8" />
+              <a href="https://github.com/bzsol/svetzphotography">
+                <img src={GitHub} alt="GitHub repository" className="h-8" />
               </a>
 
             </div>

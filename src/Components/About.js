@@ -4,9 +4,9 @@ const About = () => {
             <h2 className="text-4xl font-bold text-center md:mt-60">
                 Magamról 📌
             </h2>
-            <div className="container flex flex-col px-4 mx-auto md:mt-40 mt-20 space-y-12 md:space-y-0 md:flex-row">
-                <div className="flex flex-col space-y-12 md:w-1/2 ">
-                    <img className="rounded-full  shadow-2xl" src="https://img-comment-fun.9cache.com/media/agvm72v/a5jMR2GN_700w_0.jpg" width={400} height={400} alt='me'></img>
+            <div className="container flex flex-col px-4 mx-auto md:mt-40 mt-20 space-y-12 md:space-y-0 md:flex-row items-center">
+                <div className="flex flex-col space-y-12 md:w-1/2">
+                    <img className="rounded-full h-60 w-60 lg:h-96 lg:w-96  shadow-2xl" src="https://img-comment-fun.9cache.com/media/agvm72v/a5jMR2GN_700w_0.jpg"  alt='me'></img>
                 </div>
 
                 <div className="flex flex-col space-y-8 md:w-1/2 text-justify">

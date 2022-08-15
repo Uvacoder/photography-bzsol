@@ -15,19 +15,19 @@ const Options = () => {
             <div>
                 <a href='/architecture'>
                 <h2 className='text-center font-bold text-3xl text-slate-800'>Reklám fotózás</h2> 
-                <img className='relative shadow-xl hover:grayscale-[90%]' width={800} height={800} src={epulet} alt="asd"></img>
+                <img className='relative rounded-lg shadow-xl hover:grayscale-[90%]' width={800} height={800} src={epulet} alt="Épület fotózás"></img>
                 </a>
             
             </div>
             <div>
             <a href='/portrait'>
                 <h2 className='text-center font-bold text-3xl text-slate-800'>Portré fotózás</h2> 
-                <img className='relative shadow-xl hover:grayscale-[90%]' width={800} height={800} src={portre} alt="asd"></img>
+                <img className='relative rounded-lg shadow-xl hover:grayscale-[90%]' width={800} height={800} src={portre} alt="Portré fotók"></img>
                 </a>
             </div>
             <div>
             <h2 className='text-center font-bold text-3xl text-slate-800'>Enteriőr fotózás</h2> 
-            <img className='shadow-xl hover:grayscale-[90%]' width={800} height={800}  src={enterior} alt="asd"></img> 
+            <img className='shadow-xl rounded-lg hover:grayscale-[90%]' width={800} height={800}  src={enterior} alt="Enteriőr fotók"></img> 
             </div>
             
 
