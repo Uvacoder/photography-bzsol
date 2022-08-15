@@ -1,6 +1,6 @@
 import Facebook from "../img/social_media/Facebook.svg";
 import Instagram from "../img/social_media/Instagram.svg";
-import WhatsApp from "../img/social_media/WhatsApp.svg";
+import TikTok from "../img/social_media/Tiktok.svg";
 import GitHub from "../img/social_media/GitHub.svg"
 
 const Footer = () => {
@@ -26,8 +26,8 @@ const Footer = () => {
                 <img src={Instagram} alt="Instagram site" className="h-8" />
               </a>
 
-              <a href="https://whatsapp.com">
-                <img src={WhatsApp} alt="WhatsApp profile" className="h-8" />
+              <a href="https://tiktok.com">
+                <img src={TikTok} alt="TikTok profile" className="h-8" />
               </a>
 
               <a href="https://github.com/bzsol/svetzphotography">
