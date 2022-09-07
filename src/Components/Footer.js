@@ -8,9 +8,9 @@ const Footer = () => {
         <footer id="footer" className="bg-stone-800">
         <div className="container flex flex-col-reverse justify-between  pb-8 pt-8 px-auto mx-auto space-y-0 md:flex-row md:space-y-0">
 
-          <div className="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start">
+          <div className="flex flex-col-reverse items-center justify-between space-y-12  md:flex-col md:space-y-0  md:items-start">
             <div className="mx-auto my-6 text-center text-white md:hidden">
-              &copy; {new Date().getFullYear()} Svetz Ádám
+              &copy; All rights reserved | {new Date().getFullYear()} Svetz Ádám
             </div>
 
             <div>
@@ -38,7 +38,7 @@ const Footer = () => {
           </div>
           <div className="flex flex-col justify-between">
           <div className="hidden text-white md:block relative pt-6" >
-          &copy; {new Date().getFullYear()} Svetz Ádám
+          &copy; All rights reserved | {new Date().getFullYear()} Svetz Ádám
           </div>
           </div>
           </div>

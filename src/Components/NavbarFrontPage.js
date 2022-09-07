@@ -13,7 +13,6 @@ const Navbar = () => {
         ['Kezdőlap', 'hero'],
         ['Magamról', 'about'],
         ['Szolgáltatások', 'services'],
-        ['Vélemények', 'reviews'],
         ['Kapcsolat', 'contact'],
     ]
     return (

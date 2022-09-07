@@ -15,7 +15,6 @@ function Home() {
       <Hero></Hero>
       <About></About>
       <Options></Options>
-      <Reviews></Reviews>
       <Contact></Contact>
       <Footer></Footer>
       </div>
