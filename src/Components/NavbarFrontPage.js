@@ -1,4 +1,4 @@
-import Logo from "../img/logo.svg";
+
 import { useState } from 'react';
 import { Link, } from 'react-scroll'
 
@@ -16,10 +16,10 @@ const Navbar = () => {
         ['Kapcsolat', 'contact'],
     ]
     return (
-        <nav className="relative container mx-auto p-2">
-            <div className="flex items-center justify-between">
+        <nav className="relative container mx-auto p-6">
+            <div className="flex items-right justify-between">
                 <div className="pt-4">
-                    <img src={Logo} alt="Logo" width={300} height={300} />
+                    
                 </div>
                 <div className="hidden md:flex space-x-6">
                     {links.map(([title, url]) => (

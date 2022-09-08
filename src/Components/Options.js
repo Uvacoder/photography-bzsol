@@ -1,7 +1,7 @@
 
 import portre from '../img/slider/portre.jpg';
 import enterior from '../img/slider/enterior.jpg';
-import epulet from '../img/slider/epulet.jpg';
+import wedding from '../img/slider/wedding.jpg';
 
 const Options = () => {
     return (
@@ -15,7 +15,7 @@ const Options = () => {
             <div>
                 <a href='/wedding'>
                 <h2 className='text-center font-bold text-3xl text-slate-800'>Esküvő fotózás</h2> 
-                <img className='relative rounded-lg shadow-xl hover:grayscale-[90%]' width={800} height={800} src={epulet} alt="Esküvő fotók"></img>
+                <img className='relative rounded-lg shadow-xl hover:grayscale-[90%]' width={800} height={800} src={wedding} alt="Esküvő fotók"></img>
                 </a>
             
             </div>
