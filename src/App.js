@@ -6,6 +6,7 @@ import Architecture from "./Pages/Architecture";
 import Interior from "./Pages/Interior";
 import Ads from "./Pages/Advertisement";
 import Weddings from "./Pages/Weddings";
+import Gallery from "./Pages/Gallery";
 
 function App() {
   
@@ -19,6 +20,7 @@ function App() {
         <Route path="/interior" element={<Interior/>} />
         <Route path="/advertisement" element={<Ads/>} />
         <Route path="/wedding" element={<Weddings/>} />
+        <Route path="/gallery" element={<Gallery/>} />
         <Route path="*" element={<Error/>}  />
       </Routes>
     </Router>
