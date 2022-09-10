@@ -40,6 +40,7 @@ const Navbar = () => {
                 {links.map(([title, url]) => (
                         <Link spy={true} smooth={true} offset={50} duration={500} to={url} className="text-center">{title}</Link>
                     ))}
+                    <a href='/portrait'>Galéria</a>
                 </div>
             </div>
         </nav>
