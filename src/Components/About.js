@@ -3,7 +3,7 @@ const About = () => {
     return (
         <section id="about">
             <h2 className="text-4xl font-bold text-center md:mt-60">
-                Magamról 📌
+                
             </h2>
             <div className="container flex flex-col px-4 mx-auto md:mt-40 mt-10 space-y-12 md:space-y-0 md:flex-row items-center">
                 <div className="flex flex-col space-y-12 md:w-1/2">
