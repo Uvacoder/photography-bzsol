@@ -1,8 +1,8 @@
 
 const Contact = () => {
     return (
-        <section className="mb-40" id="contact">
-            <div className=" px-5 mx-auto mt-32 text-center">
+        <section className="py-10 mb-40 mt-40" id="contact">
+            <div className=" px-5 mx-auto text-center">
                 <h2 className="text-4xl font-bold text-center">
                     Kapcsolat 🛰️
                 </h2>

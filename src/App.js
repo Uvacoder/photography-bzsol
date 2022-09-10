@@ -5,6 +5,7 @@ import Portrait from "./Pages/Portre";
 import Architecture from "./Pages/Architecture";
 import Interior from "./Pages/Interior";
 import Ads from "./Pages/Advertisement";
+import Weddings from "./Pages/Weddings";
 
 function App() {
   
@@ -17,6 +18,7 @@ function App() {
         <Route path="/architecture" element={<Architecture/>} />
         <Route path="/interior" element={<Interior/>} />
         <Route path="/advertisement" element={<Ads/>} />
+        <Route path="/wedding" element={<Weddings/>} />
         <Route path="*" element={<Error/>}  />
       </Routes>
     </Router>

@@ -3,13 +3,12 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper";
-import reklam from '../img/slider/pickwick.jpg';
+import portre2 from '../img/slider/portre2.jpg';
 import portre from '../img/slider/portre.jpg';
+import boys from '../img/slider/boys.jpg';
 import enterior from '../img/slider/enterior.jpg';
-import epulet from '../img/slider/epulet.jpg';
-
-
-//Esküvő odaillesztése!
+import wedding from '../img/slider/wedding.jpg';
+import wedding2 from '../img/slider/wedding2.jpg';
 
 const Slider = () => {
     return (
@@ -28,12 +27,14 @@ const Slider = () => {
         modules={[Autoplay, Pagination, Navigation]}
         className="rounded-lg shadow-2xl"
       >
-        <SwiperSlide><img src={reklam} width={800} height={800} alt="Potré" ></img></SwiperSlide>
+        <SwiperSlide><img src={portre2} width={800} height={800} alt="Potré" ></img></SwiperSlide>
+        <SwiperSlide><img src={wedding2} width={800} height={800} alt="Portré" ></img></SwiperSlide>
+        <SwiperSlide><center><img src={boys} width={330} height={300} alt="Potré" ></img></center></SwiperSlide>
         <SwiperSlide><img src={portre} width={800} height={800} alt="Portré" ></img></SwiperSlide>
+        <SwiperSlide><img src={wedding} width={800} height={800} alt="Portré" ></img></SwiperSlide>
         <SwiperSlide><img src={enterior} width={800} height={800} alt="Portré" ></img></SwiperSlide>
-        <SwiperSlide><img src={epulet} width={800} height={800} alt="Portré" ></img></SwiperSlide>
       </Swiper>
     );
 }
- 
+
 export default Slider;

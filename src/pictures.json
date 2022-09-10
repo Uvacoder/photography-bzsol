@@ -1,111 +1,31 @@
 {
-    "portraits": [
+    "advertisement": [
         {
             "id": 1,
-            "image": "/images/portrait/25min.jpg",
-            "width": 6000,
+            "image": "/images/advertisement/1.jpg",
+            "width": 5886,
             "height": 4000
         },
         {
             "id": 2,
-            "image": "/images/portrait/divat1.jpg",
+            "image": "/images/advertisement/2.jpg",
             "width": 6000,
             "height": 4000
         },
         {
             "id": 3,
-            "image": "/images/portrait/hh3-min.jpg",
-            "width": 6016,
-            "height": 4016
+            "image": "/images/advertisement/3.jpg",
+            "width": 6000,
+            "height": 3953
         },
         {
             "id": 4,
-            "image": "/images/portrait/m3-min.jpg",
-            "width": 6016,
-            "height": 4016
-        },
-        {
-            "id": 5,
-            "image": "/images/portrait/2min.jpg",
+            "image": "/images/advertisement/4.jpg",
             "width": 6000,
             "height": 4000
-        },
-        {
-            "id": 6,
-            "image": "/images/portrait/jocixksz-min.jpg",
-            "width": 3799,
-            "height": 5688
-        },
-        {
-            "id": 7,
-            "image": "/images/portrait/p12-min.jpg",
-            "width": 6000,
-            "height": 4000
-        },
-        {
-            "id": 8,
-            "image": "/images/portrait/lacicsipsz-min.jpg",
-            "width": 4000,
-            "height": 5718
         }
-        ,
-        {
-            "id": 9,
-            "image": "/images/portrait/hh4-min.jpg",
-            "width": 6016,
-            "height": 4016
-        },
-        {
-            "id": 10,
-            "image": "/images/portrait/hh5-min.jpg",
-            "width": 6016,
-            "height": 4016
-        },
-        {
-            "id": 11,
-            "image": "/images/portrait/hh14-min.jpg",
-            "width": 6016,
-            "height": 4016
-        },
-        {
-            "id": 12,
-            "image": "/images/portrait/svetz1.jpg",
-            "width": 4016,
-            "height": 6016
-        },
-        {
-            "id": 13,
-            "image": "/images/portrait/svetz2.jpg",
-            "width": 6016,
-            "height": 4016
-        },
-        {
-            "id": 14,
-            "image": "/images/portrait/svetz3.jpg",
-            "width": 3350,
-            "height": 6016
-        },
-        {
-            "id": 15,
-            "image": "/images/portrait/p1-min.jpg",
-            "width": 4016,
-            "height": 6016
-        },
-        {
-            "id": 16,
-            "image": "/images/portrait/p2-min.jpg",
-            "width": 4016,
-            "height": 6016
-        },
-        {
-            "id": 17,
-            "image": "/images/portrait/p3-min.jpg",
-            "width": 3945,
-            "height": 6015
-        }
-
     ],
-    "architecture":[
+    "architecture": [
         {
             "id": 1,
             "image": "/images/architecture/a1.jpg",
@@ -132,13 +52,13 @@
         },
         {
             "id": 5,
-            "image": "/images/architecture/a5.jpg",
+            "image": "/images/architecture/a5.JPG",
             "width": 4183,
             "height": 3405
         },
         {
             "id": 6,
-            "image": "/images/architecture/a6.jpg",
+            "image": "/images/architecture/a6.JPG",
             "width": 2304,
             "height": 1536
         },
@@ -150,12 +70,12 @@
         },
         {
             "id": 8,
-            "image": "/images/architecture/a8.jpg",
+            "image": "/images/architecture/a8.JPG",
             "width": 5259,
             "height": 4000
         }
     ],
-    "interior":[
+    "interior": [
         {
             "id": 1,
             "image": "/images/interior/int1.jpg",
@@ -171,7 +91,7 @@
         {
             "id": 3,
             "image": "/images/interior/int3.jpg",
-            "width": 5264,
+            "width": 5764,
             "height": 3843
         },
         {
@@ -187,30 +107,236 @@
             "height": 4000
         }
     ],
-    "advertisement":[
+    "portrait": [
         {
             "id": 1,
-            "image": "/images/advertisement/p1.jpg",
-            "width": 5886,
+            "image": "/images/portrait/1.jpg",
+            "width": 4016,
+            "height": 6016
+        },
+        {
+            "id": 2,
+            "image": "/images/portrait/10.jpg",
+            "width": 3799,
+            "height": 5688
+        },
+        {
+            "id": 3,
+            "image": "/images/portrait/11.jpg",
+            "width": 6016,
+            "height": 4016
+        },
+        {
+            "id": 4,
+            "image": "/images/portrait/12.jpg",
+            "width": 6016,
+            "height": 4016
+        },
+        {
+            "id": 5,
+            "image": "/images/portrait/13.jpg",
+            "width": 6016,
+            "height": 4016
+        },
+        {
+            "id": 6,
+            "image": "/images/portrait/14.jpg",
+            "width": 5779,
+            "height": 3858
+        },
+        {
+            "id": 7,
+            "image": "/images/portrait/16.jpg",
+            "width": 6000,
+            "height": 4000
+        },
+        {
+            "id": 8,
+            "image": "/images/portrait/17.jpg",
+            "width": 6000,
+            "height": 4000
+        },
+        {
+            "id": 9,
+            "image": "/images/portrait/18.jpg",
+            "width": 6000,
+            "height": 4000
+        },
+        {
+            "id": 10,
+            "image": "/images/portrait/2.jpg",
+            "width": 6016,
+            "height": 4016
+        },
+        {
+            "id": 11,
+            "image": "/images/portrait/3.jpg",
+            "width": 3350,
+            "height": 6016
+        },
+        {
+            "id": 12,
+            "image": "/images/portrait/4.jpg",
+            "width": 3945,
+            "height": 6015
+        },
+        {
+            "id": 13,
+            "image": "/images/portrait/5.jpg",
+            "width": 4016,
+            "height": 6016
+        },
+        {
+            "id": 14,
+            "image": "/images/portrait/6.jpg",
+            "width": 4016,
+            "height": 6016
+        },
+        {
+            "id": 15,
+            "image": "/images/portrait/7.jpg",
+            "width": 6000,
+            "height": 4000
+        },
+        {
+            "id": 16,
+            "image": "/images/portrait/8.jpg",
+            "width": 6016,
+            "height": 4016
+        },
+        {
+            "id": 17,
+            "image": "/images/portrait/9.jpg",
+            "width": 4000,
+            "height": 5718
+        }
+    ],
+    "wedding": [
+        {
+            "id": 1,
+            "image": "/images/wedding/1.jpg",
+            "width": 6000,
             "height": 4000
         },
         {
             "id": 2,
-            "image": "/images/advertisement/p2.jpg",
-            "width": 6000,
-            "height": 4000
+            "image": "/images/wedding/10.jpg",
+            "width": 4000,
+            "height": 6000
         },
         {
             "id": 3,
-            "image": "/images/advertisement/p3.jpg",
-            "width": 6000,
-            "height": 3953
+            "image": "/images/wedding/11.jpg",
+            "width": 4000,
+            "height": 6000
         },
         {
             "id": 4,
-            "image": "/images/advertisement/p4.jpg",
+            "image": "/images/wedding/12.jpg",
+            "width": 4000,
+            "height": 6000
+        },
+        {
+            "id": 5,
+            "image": "/images/wedding/13.jpg",
             "width": 6000,
             "height": 4000
+        },
+        {
+            "id": 6,
+            "image": "/images/wedding/14.jpg",
+            "width": 4000,
+            "height": 6000
+        },
+        {
+            "id": 7,
+            "image": "/images/wedding/15.jpg",
+            "width": 3811,
+            "height": 5716
+        },
+        {
+            "id": 8,
+            "image": "/images/wedding/16.jpg",
+            "width": 4000,
+            "height": 6000
+        },
+        {
+            "id": 9,
+            "image": "/images/wedding/17.jpg",
+            "width": 4000,
+            "height": 6000
+        },
+        {
+            "id": 10,
+            "image": "/images/wedding/18-.jpg",
+            "width": 6000,
+            "height": 4000
+        },
+        {
+            "id": 11,
+            "image": "/images/wedding/19.jpg",
+            "width": 6000,
+            "height": 4000
+        },
+        {
+            "id": 12,
+            "image": "/images/wedding/2-.jpg",
+            "width": 6000,
+            "height": 4000
+        },
+        {
+            "id": 13,
+            "image": "/images/wedding/20.jpg",
+            "width": 6000,
+            "height": 4000
+        },
+        {
+            "id": 14,
+            "image": "/images/wedding/21.jpg",
+            "width": 4000,
+            "height": 6000
+        },
+        {
+            "id": 15,
+            "image": "/images/wedding/22.jpg",
+            "width": 4000,
+            "height": 5683
+        },
+        {
+            "id": 16,
+            "image": "/images/wedding/3.jpg",
+            "width": 6000,
+            "height": 4000
+        },
+        {
+            "id": 17,
+            "image": "/images/wedding/4.jpg",
+            "width": 6000,
+            "height": 4000
+        },
+        {
+            "id": 18,
+            "image": "/images/wedding/5.jpg",
+            "width": 6000,
+            "height": 4000
+        },
+        {
+            "id": 19,
+            "image": "/images/wedding/6.jpg",
+            "width": 3960,
+            "height": 6000
+        },
+        {
+            "id": 20,
+            "image": "/images/wedding/8.jpg",
+            "width": 4000,
+            "height": 6000
+        },
+        {
+            "id": 21,
+            "image": "/images/wedding/9.jpg",
+            "width": 4000,
+            "height": 6000
         }
     ]
 }

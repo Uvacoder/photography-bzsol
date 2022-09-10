@@ -5,8 +5,8 @@ import wedding from '../img/slider/wedding.jpg';
 
 const Options = () => {
     return (
-        <section className='max-w-fit mx-10 mt-60  px-5 items-center' id='services'>
-        <div className="  items-center">
+        <section className='max-w-fit mx-10 mt-60  px-5 items-center'>
+        <div className="items-center">
             <h2 className="text-4xl font-bold text-center mb-10">
                 Elérhető szolgáltatások 📋
             </h2>
@@ -15,20 +15,20 @@ const Options = () => {
             <div>
                 <a href='/wedding'>
                 <h2 className='text-center font-bold text-3xl text-slate-800'>Esküvő fotózás</h2> 
-                <img className='relative rounded-lg shadow-xl hover:grayscale-[90%]' width={800} height={800} src={wedding} alt="Esküvő fotók"></img>
+                <img className='relative rounded-lg shadow-xl hover:grayscale-[50%]' width={800} height={800} src={wedding} alt="Esküvő fotók"></img>
                 </a>
             
             </div>
             <div>
             <a href='/portrait'>
                 <h2 className='text-center font-bold text-3xl text-slate-800'>Portré fotózás</h2> 
-                <img className='relative rounded-lg shadow-xl hover:grayscale-[90%]' width={800} height={800} src={portre} alt="Portré fotók"></img>
+                <img className='relative rounded-lg shadow-xl hover:grayscale-[50%]' width={800} height={800} src={portre} alt="Portré fotók"></img>
                 </a>
             </div>
             <div>
             <a href='/interior'>
             <h2 className='text-center font-bold text-3xl text-slate-800'>Enteriőr fotózás</h2> 
-            <img className='shadow-xl rounded-lg hover:grayscale-[90%]' width={800} height={800}  src={enterior} alt="Enteriőr fotók"></img> 
+            <img className='shadow-xl rounded-lg hover:grayscale-[50%]' width={800} height={800}  src={enterior} alt="Enteriőr fotók"></img> 
             </a>
             </div>
             
@@ -40,5 +40,5 @@ const Options = () => {
     </section>
     );
 }
- 
+
 export default Options;
