@@ -112,6 +112,11 @@
 
 }
 
+.kenyer {
+    position: relative;
+    width: 50%;
+}
+
 .image {
     display: block;
     width: 100%;
@@ -120,30 +125,29 @@
 
 .overlay {
     position: absolute;
+    top: 0;
     bottom: 0;
-    left: 100%;
+    left: 0;
     right: 0;
-    background-color: #343435;
-    opacity: 80%;
-    overflow: hidden;
-    width: 0;
     height: 100%;
+    width: 100%;
+    opacity: 0;
     transition: .5s ease;
+    background-color: #1e2224;
 }
 
-.container:hover .overlay {
-    width: 100%;
-    left: 0;
+.kenyer:hover .overlay {
+    opacity: 75%;
 }
 
 .text {
     color: white;
-    font-size: 60px;
+    font-size: 40px;
     position: absolute;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    white-space: nowrap;
+    text-align: center;
 }
