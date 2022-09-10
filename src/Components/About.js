@@ -16,7 +16,7 @@ const About = () => {
                     >
 
                         <div>
-                            <h3 className="hidden mb-10  font-bold md:block text-3xl">
+                            <h3 className=" mb-10  font-bold md:block text-3xl">
                                 Üdv Svetz Ádám vagyok,
                             </h3>
                             <p className="text-slate-700 text-lg">
